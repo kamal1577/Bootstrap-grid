@@ -19,7 +19,9 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "browser-sync": "^2.23.6",
     "cssmin": "^0.4.3",
+    "del": "^3.0.0",
     "grunt": "^1.0.2",
     "grunt-browser-sync": "^2.2.0",
     "grunt-contrib-clean": "^1.1.0",
@@ -33,6 +35,15 @@
     "grunt-filerev": "^2.3.1",
     "grunt-sass": "^2.1.0",
     "grunt-usemin": "^3.1.1",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.9.3",
+    "gulp-flatmap": "^1.0.2",
+    "gulp-htmlmin": "^4.0.0",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-rev": "^8.1.1",
+    "gulp-sass": "^5.0.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-usemin": "^0.3.29",
     "htmlmin": "^0.0.7",
     "jit-grunt": "^0.10.0",
     "lite-server": "^2.3.0",
@@ -48,8 +59,17 @@
   "dependencies": {
     "bootstrap": "^4.6.0",
     "bootstrap-social": "^5.1.1",
+    "chokidar": "^2.1.8",
     "font-awesome": "^4.7.0",
+    "fsevents": "^1.2.13",
+    "graceful-fs": "^4.2.8",
+    "gulp-update": "0.0.2",
+    "imagemin": "^8.0.1",
     "jquery": "^3.6.0",
-    "popper.js": "^1.12.9"
+    "natives": "^1.1.6",
+    "node": "^12.22.7",
+    "popper.js": "^1.16.1",
+    "resolve-url": "^0.2.1",
+    "urix": "^0.1.0"
   }
 }
